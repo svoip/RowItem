@@ -1,0 +1,6 @@
+framework module Pods_RowItemDemo {
+  umbrella header "Pods-RowItemDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
