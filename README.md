@@ -50,9 +50,7 @@ Adopt `RowItemsProvider` and return from there a list of row items.
 
 This is how a single row item looks like:
 
-```
-
-swift
+```swift
 
 // view that takes up half the height of its superview
 
@@ -76,9 +74,7 @@ func halfView()->RowItem{
   
 This is how you return your list of row items:
 
-```
-
-swift
+```swift
 
 public var rowItems: [RowItem] {
 
@@ -100,9 +96,7 @@ and present this view controller in your view controller:
 
   
 
-```
-
-swift
+```swift
 
 let rowItemsViewController = RowItemContainerController(items: ...)
 self.show(rowItemsViewController, sender: nil)
