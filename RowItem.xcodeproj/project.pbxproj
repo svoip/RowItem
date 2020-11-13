@@ -49,7 +49,6 @@
 		7F71C8CA2381622B00BCD297 /* DemoItemsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71C8C72381622A00BCD297 /* DemoItemsProvider.swift */; };
 		7F71C8CB2381622B00BCD297 /* Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71C8C82381622B00BCD297 /* Random.swift */; };
 		7F71C8CC2381622B00BCD297 /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F71C8C92381622B00BCD297 /* LabelViewController.swift */; };
-		7F71C8DA238174EF00BCD297 /* RowItem.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 7F71C8D8238174EF00BCD297 /* RowItem.podspec */; };
 		7F71C8DB238174EF00BCD297 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7F71C8D9238174EF00BCD297 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -91,7 +90,6 @@
 		7F71C8C92381622B00BCD297 /* LabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
 		7F71C8CD2381651C00BCD297 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7F71C8CF2381655000BCD297 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		7F71C8D8238174EF00BCD297 /* RowItem.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RowItem.podspec; sourceTree = "<group>"; };
 		7F71C8D9238174EF00BCD297 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9D58EED4845F5B743A1D828 /* Pods_RowItemDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RowItemDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				7F71C8D9238174EF00BCD297 /* README.md */,
-				7F71C8D8238174EF00BCD297 /* RowItem.podspec */,
 				7F71C86E23815AAD00BCD297 /* RowItem */,
 				7F71C87C23815DF700BCD297 /* RowItemDemo */,
 				7F71C86D23815AAD00BCD297 /* Products */,
@@ -339,7 +336,6 @@
 				7F71C8BC2381617200BCD297 /* CityCell.xib in Resources */,
 				7F71C8DB238174EF00BCD297 /* README.md in Resources */,
 				7F71C8C42381619200BCD297 /* PersonCell.xib in Resources */,
-				7F71C8DA238174EF00BCD297 /* RowItem.podspec in Resources */,
 				7F71C88523815DF700BCD297 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

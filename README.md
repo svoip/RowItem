@@ -12,9 +12,12 @@ This project has an abstraction layer over how to present "stacked views".
 You have a basic view, you return a `row item`.
 You have a collection view, you return a `row item`.
 
+ ### Features
+ -`carousel` or horizontally scrollable content,
+ -`grid` or vertically scrollable content,
+ -`custom` where you return the view you want instead.
  
 
-  
 ### How it works with UICollectionViews
   We all know that `UICollectionView` layouts come in 2 flavors, "vertical" and "horizontal".
 ```swift   
