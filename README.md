@@ -1,14 +1,14 @@
 
 # RowItem
 
-A declarative framework for building vertically-stacked views.
-
+A declarative way for building vertically-stacked views.
+A proof-of-concept.
   
 
 
 ### Functions that return views
 
-This library has an abstraction layer over how to present "stacked views". 
+This project has an abstraction layer over how to present "stacked views". 
 You have a basic view, you return a `row item`.
 You have a collection view, you return a `row item`.
 
@@ -34,7 +34,7 @@ You have a collection view, you return a `row item`.
 
 ## Installation
 
-The preferred installation method is with CocoaPods. Add to your `Podfile`:
+Copy code into your project.
 
 ```ruby
 
