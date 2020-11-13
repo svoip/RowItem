@@ -14,7 +14,9 @@ You have a collection view, you return a `row item`.
 
  ### Features
  -`carousel` or horizontally scrollable content,
+ 
  -`grid` or vertically scrollable content,
+ 
  -`custom` where you return the view you want instead.
  
 
