@@ -12,6 +12,7 @@ This project has an abstraction layer over how to present "stacked views".
 You have a basic view, you return a `row item`.
 You have a collection view, you return a `row item`.
 
+
  ### Features
  -`carousel` or horizontally scrollable content,
  
@@ -41,13 +42,7 @@ You have a collection view, you return a `row item`.
 
 Copy code into your project.
 
-```ruby
 
-pod 'RowItem'
-
-```
-
-  
 
 # How it works
 
