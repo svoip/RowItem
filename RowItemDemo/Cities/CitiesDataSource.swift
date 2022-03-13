@@ -14,7 +14,7 @@ class CitiesDataSource:NSObject, UICollectionViewDataSource {
    })
    
    func objectAt(index:Int)->City?{
-      guard cities.count >= index else { return nil }
+      guard cities.count > index else { return nil }
       return cities[index]
    }
    
@@ -24,10 +24,6 @@ class CitiesDataSource:NSObject, UICollectionViewDataSource {
    }
    
    public func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-      
-      //CityCell.reuseIdentifier
-      
-      
       let cell = collectionView.dequeueReusableCell(withReuseIdentifier: CityCell.reuseIdentifier, for: indexPath) as! CityCell
       cell.city = cities[indexPath.row]
       return cell
